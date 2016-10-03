@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cohen.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" />
+        <activity
+            android:name=".UIinterface"
+            android:label="@string/title_activity_uiinterface" />
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order" />
+        <activity
+            android:name=".SpinerActivity"
+            android:label="@string/title_activity_spiner" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view" />
+        <activity
+            android:name=".CanvasAcitvity"
+            android:label="@string/title_activity_canvas_acitvity" />
+        <activity
+            android:name=".SeekBarActivity"
+            android:label="SeekBar">
+
+        </activity>
+    </application>
+
+</manifest>
